@@ -1,23 +1,19 @@
 public class Operadores {
 
   public static void main(String[] args) {
-    int numero = 5;
+    boolean condicao1=true;
 
-    //x repetição 
-    
-    //numero = numero +1;
+    boolean condicao2=true;
 
-    System.out.println( numero --);
+    if (condicao1 && ( 7 > 4 ) ){
+      System.out.println("as duas condições são verdadeiras");
+    }
 
-    System.out.println(numero);
+    if (condicao1 || condicao2){
+      System.out.println("umas das condições são verdadeiras");
+    }
 
-    //negando expressões booolean
+    System.out.println("fim");
 
-    boolean variavel = true;
-
-    variavel = !variavel;
-
-    System.out.println(variavel);
   }
-  
 }
